@@ -10,8 +10,8 @@ class ListItem extends Component{
           </CardSection>
         );
     }
-
 }
+
 const styles={
     titleStyle:{
         fontSize:18,
