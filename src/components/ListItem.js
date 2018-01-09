@@ -6,7 +6,7 @@ export default class ListItem{
     render(){        
         return(
             <CardSection>
-               <Text>{this.props.library}</Text>
+               <Text>{this.props.library.title}</Text>
             </CardSection>
         );
     }
